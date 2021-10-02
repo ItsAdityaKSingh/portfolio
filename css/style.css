@@ -475,4 +475,17 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.5em;
 }
+
+.portfolio-item-individual::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
